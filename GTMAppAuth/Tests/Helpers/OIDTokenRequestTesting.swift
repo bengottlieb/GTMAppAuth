@@ -48,8 +48,7 @@ import AppAuth
       scopes: scopes,
       refreshToken: "refreshToken",
       codeVerifier: authorizationRequest.codeVerifier,
-      additionalParameters: additionalParameters,
-		additionalHeaders: nil
+      additionalParameters: additionalParameters
     ) as! Self
   }
 }
