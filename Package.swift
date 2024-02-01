@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 // Copyright 2021 Google LLC
@@ -32,8 +32,8 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/bengottlieb/gtm-session-fetcher.git", "0.9.0" ..< "0.9.0"),
-    .package(url: "https://github.com/bengottlieb/AppAuth-iOS.git", "0.9.0" ..< "0.9.0")
+    .package(url: "https://github.com/bengottlieb/gtm-session-fetcher.git", from: "0.9.0"),
+	 .package(url: "https://github.com/bengottlieb/AppAuth-iOS.git", from: "0.9.0")
   ],
   targets: [
     .target(
